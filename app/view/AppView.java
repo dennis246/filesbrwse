@@ -71,7 +71,7 @@ public class AppView {
         {
             Map<TextAttribute, Object> att = new HashMap<>();
             att.put(TextAttribute.WEIGHT, 800);
-            att.put(TextAttribute.FAMILY, "AgencyFB");
+            att.put(TextAttribute.FAMILY, "Consolas");
             att.put(TextAttribute.SIZE, 16);
             att.put(TextAttribute.WIDTH, 400);
             tertiaryContentFont = new Font(att);
@@ -405,3 +405,4 @@ public class AppView {
     }
 
 }
+
